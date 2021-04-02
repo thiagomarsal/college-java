@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class Lab10a {
 
     public static void main(String[] args) {
-        String fileName = "C:\\Student Assignment Scores.csv";
+        String fileName = "Student Assignment Scores.csv";
         File file = null;
         Scanner in = null;
         try {
