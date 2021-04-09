@@ -37,14 +37,14 @@ public class FinalExam1 {
 	}// end of main()
 
 	private static int getValidInt(String question, String warning) {
-		Scanner in = new Scanner(System.in); // using Scanner to get user's input
-		boolean valid = false;
-		int value = 0;
+		var in = new Scanner(System.in); // using Scanner to get user's input
+		var valid = false;
+		var value = 0;
 
 		do {
 			// reading value from user
 			System.out.print(question);
-			String userInput = in.nextLine();
+			var userInput = in.nextLine();
 
 			// Validating value if is whole number
 			try {
